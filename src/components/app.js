@@ -6,8 +6,10 @@ export default (props) => {
     return (
       <div>
         < NavBar  title="Boozr" url="/" />
+        
         <div className='container'>
-          { props.children }
+        	<h3 className = 'row'><Link to='/cocktails'>Let's Get Crunk</Link></h3>
+        	{ props.children }
         </div>
 
       </div>
